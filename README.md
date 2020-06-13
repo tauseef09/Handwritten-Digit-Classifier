@@ -11,6 +11,7 @@ NeuralNet.cpp, Trainer.cpp, Tester.cpp, UI.cpp - necessary classes required for 
 Program input: 
 
 The image:
+
 0000000000000000000000000000
 0000000000000000000000000000
 0000000000000000000000000000
