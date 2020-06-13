@@ -1,0 +1,151 @@
+# depslib dependency file v1.0
+1591951449 source:d:\uni\semester 3\oop lab\project\handwritten digit classifier\main.cpp
+	<iostream>
+	"NeuralNet.h"
+	"Trainer.h"
+	"Tester.h"
+	"UI.h"
+
+1591878313 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\neuralnet.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<set>
+	<iterator>
+	<algorithm>
+
+1591877840 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\trainer.h
+	<NeuralNet.h>
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<set>
+	<iterator>
+	<algorithm>
+
+1591948031 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\tester.h
+	<NeuralNet.h>
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<set>
+	<iterator>
+	<algorithm>
+
+1591878346 source:d:\uni\semester 3\oop lab\project\handwritten digit classifier\src\neuralnet.cpp
+	"NeuralNet.h"
+
+1591945073 source:d:\uni\semester 3\oop lab\project\handwritten digit classifier\src\tester.cpp
+	"Tester.h"
+
+1591878392 source:d:\uni\semester 3\oop lab\project\handwritten digit classifier\src\trainer.cpp
+	"Trainer.h"
+
+1591878346 source:e:\handwritten digit classifier\src\neuralnet.cpp
+	"NeuralNet.h"
+
+1591878313 e:\handwritten digit classifier\include\neuralnet.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<set>
+	<iterator>
+	<algorithm>
+
+1591878392 source:e:\handwritten digit classifier\src\trainer.cpp
+	"Trainer.h"
+
+1591877840 e:\handwritten digit classifier\include\trainer.h
+	<NeuralNet.h>
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<set>
+	<iterator>
+	<algorithm>
+
+1591947971 source:e:\handwritten digit classifier\main.cpp
+	<iostream>
+	"NeuralNet.h"
+	"Trainer.h"
+	"Tester.h"
+	"UI.h"
+
+1591948031 e:\handwritten digit classifier\include\tester.h
+	<NeuralNet.h>
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<set>
+	<iterator>
+	<algorithm>
+
+1591948176 e:\handwritten digit classifier\include\ui.h
+	<Tester.h>
+	<NeuralNet.h>
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<set>
+	<iterator>
+	<algorithm>
+
+1591945073 source:e:\handwritten digit classifier\src\tester.cpp
+	"Tester.h"
+
+1591948256 source:e:\handwritten digit classifier\src\ui.cpp
+	"UI.h"
+
+1591948176 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\ui.h
+	<Tester.h>
+	<NeuralNet.h>
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<vector>
+	<set>
+	<iterator>
+	<algorithm>
+
+1591951459 source:d:\uni\semester 3\oop lab\project\handwritten digit classifier\src\ui.cpp
+	"UI.h"
+
