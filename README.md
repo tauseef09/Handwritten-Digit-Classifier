@@ -7,6 +7,7 @@ some-test-examples.txt - contains some example images to give as input to the pr
 Handwritten Digit Classifier.cbp - codeblocks project file.  
 NeuralNet.cpp, Trainer.cpp, Tester.cpp, UI.cpp - necessary classes required for the program.   
 
+Open the Handwritten Digit Classifier.cbp file and run the main.cpp file.  
 
 Program input:  
 
