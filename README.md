@@ -8,6 +8,7 @@ Handwritten Digit Classifier.cbp - codeblocks project file.
 NeuralNet.cpp, Trainer.cpp, Tester.cpp, UI.cpp - necessary classes required for the program.   
 
 Open the Handwritten Digit Classifier.cbp file and run the main.cpp file.  
+For sample inputs checkout the some-test-examples.txt file.  
 
 Program input:  
 
