@@ -23,14 +23,10 @@ public:
     virtual ~Trainer();
     void memoryAllocation();
     void backPropagation();
-    int learningProcess();
+    int gradientDescent();
     void input();
     void writeMatrix(string fileName);
     void train();
-
-
-    void abstract(); // overriding the pure virtual function
-
 
 protected:
 

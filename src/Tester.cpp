@@ -16,12 +16,23 @@ Tester::Tester()
 Tester::~Tester()
 {
     //dtor
-}
+    for (int i = 1; i <= n1; ++i)
+    {
+        delete[] w1[i];
+    }
 
+    delete[] vectorImg;
 
-void Tester::abstract()
-{
-    //overriding the pure virtual function
+    for (int i = 1; i <= n2; ++i)
+    {
+        delete[] w2[i];
+    }
+
+    delete[] z2;
+    delete[] a2;
+
+    delete[] z3;
+    delete[] a3;
 }
 
 

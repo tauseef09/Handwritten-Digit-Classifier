@@ -26,10 +26,6 @@ public:
     int input();
     void test();
 
-
-    void abstract(); // overriding the pure virtual function
-
-
 protected:
     string modelFn;
 

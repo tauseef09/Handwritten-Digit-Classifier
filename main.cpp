@@ -22,7 +22,8 @@ int main()
     #endif // TrainTest
 
 
-    const int height=28, width=28; // the dimensions of the matrix needs to be constant so that the matrix can later be passed as a parameter
+    // the dimensions of the matrix needs to be constant so that the matrix can later be passed as a parameter
+    const int height=28, width=28;
     int pic[width+1][height+1];
 
 

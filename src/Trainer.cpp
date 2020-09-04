@@ -21,12 +21,30 @@ Trainer::Trainer()
 Trainer::~Trainer()
 {
     //dtor
-}
+
+    // Deleting the allocated memory
+    for (int i = 1; i <= n1; ++i)
+    {
+        delete[] w1[i];
+        delete[] deltaW1[i];
+    }
+
+    delete[] vectorImg;
 
 
-void Trainer::abstract()
-{
-    //overriding the pure virtual function
+    for (int i = 1; i <= n2; ++i)
+    {
+        delete[] w2[i];
+        delete[] deltaW2[i];
+    }
+
+    delete[] z2;
+    delete[] a2;
+    delete[] smallDel2;
+
+    delete[] z3;
+    delete[] a3;
+    delete[] smallDel3;
 }
 
 
@@ -132,7 +150,7 @@ void Trainer::backPropagation()
 // Training process runs the FP and BP for every training example until an error less than epsilon is found
 // If error does not go less than epsilon, it runs the process max epoch times
 // The function returns the number of iterations needed to minimize the error
-int Trainer::learningProcess()
+int Trainer::gradientDescent()
 {
 
     // Initializing
@@ -274,7 +292,7 @@ void Trainer::train()
         input();
 
 		// Learning process: Perceptron (Forward procedure) - Back propagation
-        int nIterations = learningProcess();
+        int nIterations = gradientDescent();
 
 		// Write down the squared error
 		cout << "No. iterations: " << nIterations << endl;

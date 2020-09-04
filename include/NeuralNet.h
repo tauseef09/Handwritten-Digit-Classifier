@@ -22,8 +22,7 @@ public:
     void forwardPropagation();
     double squaredError();
 
-
-    virtual void abstract()=0; // making the neural network class as abstract
+    virtual void memoryAllocation()=0; // making the neural network class as abstract
 
 protected:
     //height and width of the image which is 28x28
@@ -35,10 +34,10 @@ protected:
      int n3;
 
      //Weight matrix for the input layer to the hidden layer
-     //vectorImg hold the vector version of our image d
+     //vectorImg hold the vector version of our image
     double *w1[784 + 1], *vectorImg;
 
-    //Weight matrix for the input layer to the hidden layer
+    //Weight matrix for the hidden layer to the output layer
     //a2 is g(z2)
     double *w2[128 + 1], *z2, *a2;
 

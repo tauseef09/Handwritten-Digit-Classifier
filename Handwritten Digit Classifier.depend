@@ -6,7 +6,7 @@
 	"Tester.h"
 	"UI.h"
 
-1591878313 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\neuralnet.h
+1599228455 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\neuralnet.h
 	<iostream>
 	<fstream>
 	<cstring>
@@ -19,7 +19,7 @@
 	<iterator>
 	<algorithm>
 
-1591877840 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\trainer.h
+1599232727 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\trainer.h
 	<NeuralNet.h>
 	<iostream>
 	<fstream>
@@ -33,7 +33,7 @@
 	<iterator>
 	<algorithm>
 
-1591948031 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\tester.h
+1599232745 d:\uni\semester 3\oop lab\project\handwritten digit classifier\include\tester.h
 	<NeuralNet.h>
 	<iostream>
 	<fstream>
@@ -53,7 +53,7 @@
 1591945073 source:d:\uni\semester 3\oop lab\project\handwritten digit classifier\src\tester.cpp
 	"Tester.h"
 
-1591878392 source:d:\uni\semester 3\oop lab\project\handwritten digit classifier\src\trainer.cpp
+1599233723 source:d:\uni\semester 3\oop lab\project\handwritten digit classifier\src\trainer.cpp
 	"Trainer.h"
 
 1591878346 source:e:\handwritten digit classifier\src\neuralnet.cpp
