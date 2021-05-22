@@ -1,6 +1,6 @@
 # Handwritten-Digit-Classifier
-The program guesses the digit shown in a matrix-like image. It uses a 2-layer Neural Network to do so.  
-Training and testing data are provided by MNIST database.  
+The program guesses the digit shown in a matrix-like image. It uses a 2-layer Neural Network to accomplish this task.  
+Training and testing data are provided by the MNIST dataset.  
 
 some-test-examples.txt: contains some example images to give as input to the program.  
 Handwritten Digit Classifier.cbp: codeblocks project file.  
