@@ -42,5 +42,5 @@ The image:
 0000000000000000000000000000  
 0000000000000000000000000000  
 
-Program output:  
+## Program output:  
 The digit in the image is: 5 
